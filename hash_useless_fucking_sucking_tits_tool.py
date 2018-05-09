@@ -57,7 +57,7 @@ def Ascii():
     Y88b. Y88..88PY88..88P888 
     "Y888  "Y88P"  "Y88P" 888 """)
 def ParseCommandLine():
-    parser = argparse.ArgumentParser('Sistema de hashing em Python: P-Fish')
+    parser = argparse.ArgumentParser('Sistema de hashing em Python: HUT')
     parser.add_argument('-v','--verbose', help="Permite mostrar mensagens sobre o progresso",action='store_true')
     
     group = parser.add_mutually_exclusive_group(required=True)
